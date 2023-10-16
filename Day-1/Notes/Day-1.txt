@@ -1,0 +1,116 @@
+React JS:
+--------
+-Meta/Facebook
+-It is a open source library
+-It will follow component based architecture
+-Supports Reusable Code
+-It will render and update components effectively
+-DOM Updates can be handled by React
+-React Native is a platform building native mobile apps
+- require HTML,CSS,JS and ES6/ES7
+- Fundamentals,Http,Routing,Redux,Utilities
+
+Visual Studio Code
+Node JS
+NPM
+VS Extension: React/React Native/ES7 snippits
+
+Create First App:
+
+npx create-react-app project-name
+npx create-react-app firstproject
+cd firstproject
+npm start
+
+Node Modules:  Dependencies
+-------------
+PWA: Progressive Web Apps
+
+index.html<- index.js  <-  App.js
+
+Components:
+-----------
+-Components are part of UI
+-Components are building blocks of React Apps
+-In react template, the root component is 'APP'
+-In React Apps we can nest the components
+-components can be created with an extension of *.js or .jsx
+-There are 2 types of components:
+	1.Functional Components: Regular JavaScript Functions
+	2.Class Components: Modern JavaScript Classes(ES6/ES7)
+
+1.Functional Components: (RFCE)
+-------------------------
+-These are regular javascript functions
+-they can optionally receive an object of properties(props)
+-These will return HTML as UI (known as JSX)
+
+function sum(a,b)
+{
+  =====
+}
+
+const sum=(a,b)=>{
+
+}
+
+2.Class Components:(RCE)
+-----------------------
+-These are Es6/Es7 Classes
+-These also optionally receive props and returns JSX
+-Additionally these will maintain an internal memory called state
+-State is private space, which will be maintained by component
+
+
+Destructuring Props & State:
+---------------------------
+this.props.id
+props.name
+props.department
+const{id,name,department}=this.props
+id
+
+useState:
+---------
+
+Event Bindings:
+------------------
+
+Passing Method as Prop:
+-----------------------
+
+Conditional Rendering:
+-------------------------
+
+Map:
+---
+const courses=['c','c++','java','C#.NET']
+<ol>
+{
+    courses.map(course=>
+	<li>{course}</li>)
+}
+</ol>
+
+npm install bootstrap
+
+
+
+
+-Styling the components(CSS)
+-Basic Form Handling
+-Life Cycle Hooks of React Component
+-Fragments in React
+-Pure Components
+-Memo Components
+-Refs in React
+-Error Handling
+-Calls from Child to Parent
+-Navigartion/Routing
+-CRUD Operations using Web API
+
+
+
+
+
+
