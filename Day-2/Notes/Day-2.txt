@@ -1,0 +1,100 @@
+Life Cycle Hooks:
+------------------
+Mounting:
+ when an instance of component is being created and inserted into DOM
+	constructor()
+	static getDerivedStateFromProps()
+	render()
+	componentDidMount()
+
+Updating:
+	when a component is being re-rendred as a result of changes to its props/state
+	static getDerivedStateFromProps()
+	shouldComponentUpdate()
+	render()
+	getSnapshotBeforeUpdate()
+	ComponentDidUpdate()
+
+Unmounting:
+	when a component is being removed from DOM
+	componentWillUnmount()
+
+Error Handling:
+	when there is error during rendering/constructor/child component
+
+	static getDerivedStateFromError()
+	componentDidCatch()
+
+Mounting:
+---------
+Constructor():
+	Its a special type member function get called when ever a new component is created
+	Helps for initializing the state
+	Handles Event Bindings
+	
+static getDerivedStateFromProps(props,state):
+	When the state of the component depends on changes in props over time
+	Set the State
+	
+render():
+	This is the only required method
+	reads props & state and returns JSX
+	Child Component life cycle will start from here
+
+componentDidMount():
+	Invoked immediately after a component and its child compomnets are beed rendered into DOM
+	We can make AJAX/API Calls from this method
+
+
+Fragments in React:
+------------------
+Table
+Head
+Body'
+
+React.Fragment
+
+
+Pure Components:
+------------------
+
+Refs in React:
+----------------
+
+Forward Refs:
+---------------
+
+Portals in React:
+--------------------
+index.html: root<-
+
+
+Error Handling:
+--------------
+
+npm i -g serve
+npm run build
+npx serve -s build 
+
+
+Invoking Parent Method From Child:
+------------------------------------
+
+
+Navigation/Routing:
+------------------
+npm install react-router-dom
+
+BrowserRouter
+Routes
+Route
+
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+
+
+Higher Order Components-HOC
+FETCH
+AXIOS API
+Redux
+Unit Testing-TestingLibrary
+
