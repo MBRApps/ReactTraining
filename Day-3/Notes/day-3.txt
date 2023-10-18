@@ -1,0 +1,70 @@
+HOC: Higher Order Components:
+------------------------------
+Code Re-Usability
+
+component->
+
+
+Fetch/XMLHttpRequest
+AXIOS
+
+npm i react-router-dom bootstrap
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+
+npm install -g json-server
+json-server --watch db.json --port 3200
+
+AXIOS:
+
+npm install axios
+
+Bearer Auth:
+loginid,pass-> JWT 1162165165->90min
+
+React Redux:
+-----------
+-Redux is an open-source js library
+-It is available for React,Angular,Vue etc..
+-to work with react redux we require the following dependencies
+	npm i redux react-redux redux-thunk redux-devtools-extension
+
+-Store: It is used to store state values
+-Reducer: It is a part of store, which will manage state and actions
+-Action: It will be dispached to Reducer
+-Connect: It will access the store 
+
+
+Redux ToolKit:
+----------------
+-It was introduced by the team of redux
+-To over come the drawbacks of react-redux
+	Configuring Store is very complicated
+	we have to use additional npm dependencies for middlewares
+	Thunk,Saga etc...
+-Dependencies:
+	npm i @reduxjs/toolkit react-redux bootstrap
+
+E-commerce: products<- JSON
+	add2Cart: 
+	removeFromCart:
+	Count:3
+	Total:75000
+
+Unit Testing:
+---------------
+Enzyme:
+
+Jest
+
+npm test
+*.test.js
+
+
+
+
+
+
+
+
+
+
